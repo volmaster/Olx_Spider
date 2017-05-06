@@ -7,7 +7,7 @@ import base64
 from pytesseract import image_to_string
 
 
-class IndOlxSpiderSpide(scrapy.Spider):
+class IndOlxSpider(scrapy.Spider):
     name = "indspider"
     start_urls = ['http://olx.co.id/perlengkapan-bayi-anak/jakarta-dki/?view=list']
 
